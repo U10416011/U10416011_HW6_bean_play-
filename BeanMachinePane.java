@@ -631,7 +631,210 @@ public class BeanMachinePane  extends Application {
 				case 60:
 					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot13,Dot18,Dot24,bottom3);
 					break;
-						
+				case 61:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot13,Dot19,Dot25,bottom3);
+					break;
+				case 62:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot13,Dot19,Dot25,bottom4);
+					break;
+				case 63:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot13,Dot19,Dot26,bottom4);
+					break;
+				case 64:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot13,Dot19,Dot26,bottom5);
+					break;
+				case 65:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot14,Dot19,Dot25,bottom3);
+					break;
+				case 66:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot14,Dot19,Dot25,bottom4);
+					break;
+				case 67:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot14,Dot19,Dot26,bottom4);
+					break;
+				case 68:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot14,Dot19,Dot26,bottom5);
+					break;
+				case 69:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot14,Dot20,Dot26,bottom4);
+					break;
+				case 70:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot14,Dot20,Dot26,bottom5);
+					break;
+				case 71:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot14,Dot20,Dot27,bottom5);
+					break;
+				case 72:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot9,Dot14,Dot20,Dot27,bottom6);
+					break;
+				case 73:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot14,Dot19,Dot25,bottom3);
+					break;
+				case 74:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot14,Dot19,Dot25,bottom4);
+					break;
+				case 75:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot14,Dot19,Dot26,bottom4);
+					break;
+				case 76:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot14,Dot19,Dot26,bottom5);
+					break;
+				case 77:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot14,Dot20,Dot26,bottom4);
+					break;
+				case 78:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot14,Dot20,Dot26,bottom5);
+					break;
+				case 79:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot14,Dot20,Dot27,bottom5);
+					break;
+				case 80:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot14,Dot20,Dot27,bottom6);
+					break;
+				case 81:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot15,Dot20,Dot26,bottom4);
+					break;
+				case 82:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot15,Dot20,Dot26,bottom5);
+					break;
+				case 83:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot15,Dot20,Dot27,bottom5);
+					break;
+				case 84:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot15,Dot20,Dot27,bottom6);
+					break;
+				case 85:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot15,Dot21,Dot27,bottom5);
+					break;
+				case 86:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot15,Dot21,Dot27,bottom6);
+					break;
+				case 87:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot15,Dot21,Dot28,bottom6);
+					break;
+				case 88:
+					Routine(Ball,Dot1,Dot3,Dot4,Dot10,Dot15,Dot21,Dot28,bottom7);
+					break;
+				case 89:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot14,Dot19,Dot25,bottom3);
+					break;
+				case 90:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot14,Dot19,Dot25,bottom4);
+					break;
+				case 91:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot14,Dot19,Dot26,bottom4);
+					break;
+				case 92:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot14,Dot19,Dot26,bottom5);
+					break;
+				case 93:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot14,Dot20,Dot26,bottom4);
+					break;
+				case 94:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot14,Dot20,Dot26,bottom5);
+					break;
+				case 95:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot14,Dot20,Dot27,bottom5);
+					break;
+				case 96:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot14,Dot20,Dot27,bottom6);
+					break;
+				case 97:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot15,Dot20,Dot26,bottom4);
+					break;
+				case 98:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot15,Dot20,Dot26,bottom5);
+					break;
+				case 99:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot15,Dot20,Dot27,bottom5);
+					break;
+				case 100:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot15,Dot20,Dot27,bottom6);
+					break;
+				case 101:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot15,Dot21,Dot27,bottom5);
+					break;
+				case 102:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot15,Dot21,Dot27,bottom6);
+					break;
+				case 103:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot15,Dot21,Dot28,bottom6);
+					break;
+				case 104:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot15,Dot21,Dot28,bottom7);
+					break;
+				case 105:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot15,Dot20,Dot26,bottom4);
+					break;
+				case 106:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot15,Dot20,Dot26,bottom5);
+					break;
+				case 107:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot15,Dot20,Dot27,bottom5);
+					break;
+				case 108:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot15,Dot20,Dot27,bottom6);
+					break;
+				case 109:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot15,Dot21,Dot27,bottom5);
+					break;
+				case 110:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot15,Dot21,Dot27,bottom6);
+					break;
+				case 111:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot15,Dot21,Dot28,bottom6);
+					break;
+				case 112:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot15,Dot21,Dot28,bottom7);
+					break;
+				case 113:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot11,Dot21,Dot27,bottom5);
+					break;
+				case 114:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot11,Dot21,Dot27,bottom6);
+					break;
+				case 115:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot11,Dot21,Dot28,bottom6);
+					break;
+				case 116:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot11,Dot21,Dot28,bottom7);
+					break;
+				case 117:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot11,Dot16,Dot28,bottom6);
+					break;
+				case 118:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot11,Dot16,Dot28,bottom7);
+					break;
+				case 119:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot11,Dot16,Dot22,bottom7);
+					break;
+				case 120:
+					Routine(Ball,Dot1,Dot2,Dot4,Dot9,Dot14,Dot19,Dot25,bottom3);
+					break;
+				case 121:
+					Routine(Ball,Dot1,Dot2,Dot4,Dot9,Dot14,Dot19,Dot25,bottom4);
+					break;
+				case 122:
+					Routine(Ball,Dot1,Dot2,Dot4,Dot9,Dot14,Dot19,Dot26,bottom4);
+					break;
+				case 123:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot10,Dot15,Dot20,Dot26,bottom4);
+					break;
+				case 124:
+					Routine(Ball,Dot1,Dot2,Dot4,Dot9,Dot14,Dot20,Dot26,bottom4);
+					break;
+				case 125:
+					Routine(Ball,Dot1,Dot2,Dot4,Dot9,Dot14,Dot20,Dot26,bottom5);
+					break;
+				case 126:
+					Routine(Ball,Dot1,Dot2,Dot4,Dot9,Dot14,Dot20,Dot27,bottom5);
+					break;
+				case 127:
+					Routine(Ball,Dot1,Dot2,Dot4,Dot9,Dot14,Dot20,Dot27,bottom6);
+					break;
+				case 128:
+					Routine(Ball,Dot1,Dot3,Dot5,Dot8,Dot11,Dot16,Dot22,bottom8);
+					break;		
 			}			
 		});
 		primaryStage.setTitle("BeanMachinePane");
