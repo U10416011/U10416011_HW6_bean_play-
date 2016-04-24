@@ -11,7 +11,7 @@ import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
 import javafx.util.Duration;
 
-public class BeanMachinePane  extends Application { 
+public class BeanMachinePane  extends Application {
 	double X, Y;
 	public void start(Stage primaryStage) {	
 		Pane pane = new Pane();	//create a pane    
@@ -42,15 +42,7 @@ public class BeanMachinePane  extends Application {
 		Circle Dot25 = new Circle(225,280,5,Color.BLACK);
 		Circle Dot26 = new Circle(275,280,5,Color.BLACK);
 		Circle Dot27 = new Circle(325,280,5,Color.BLACK);
-		Circle Dot28 = new Circle(375,280,5,Color.BLACK);
-		Circle bottom1 = new Circle(100,350,0.1,Color.WHITE);
-		Circle bottom2 = new Circle(150,350,0.1,Color.WHITE);
-		Circle bottom3 = new Circle(200,350,0.1,Color.WHITE);
-		Circle bottom4 = new Circle(250,350,0.1,Color.WHITE);
-		Circle bottom5 = new Circle(300,350,0.1,Color.WHITE);
-		Circle bottom6 = new Circle(350,350,0.1,Color.WHITE);
-		Circle bottom7 = new Circle(400,350,0.1,Color.WHITE);
-		Circle bottom8 = new Circle(450,350,0.1,Color.WHITE);	
+		Circle Dot28 = new Circle(375,280,5,Color.BLACK);	
 		Line Line1 = new Line(300,65,475,280);	//create line as side
 		Line Line2 = new Line(475,350,75,350);		
 		Line Line3 = new Line(250,65,75,280);	
@@ -65,14 +57,14 @@ public class BeanMachinePane  extends Application {
 		Line Line12 = new Line(325,280,325,350);
 		Line Line13 = new Line(425,280,425,350);
 		Line Line14 = new Line(375,280,375,350);
-		pane.getChildren().addAll(Dot1,Dot2,Dot3,Dot4,Dot5,Dot6,Dot7,Dot8,Dot9,Dot10,Dot11,Dot12,Dot13,Dot14,Dot15,Dot16,Dot17,Dot18,Dot19,Dot20,Dot21,Dot22,Dot23,Dot24,Dot25,Dot26,Dot27,Dot28,Line1,Line2,Line3,Line4,Line5,Line6,Line7,Line8,Line9,Line10,Line11,Line12,Line13,Line14,bottom1,bottom2,bottom3,bottom4,bottom5,bottom6,bottom7,bottom8);
+		pane.getChildren().addAll(Dot1,Dot2,Dot3,Dot4,Dot5,Dot6,Dot7,Dot8,Dot9,Dot10,Dot11,Dot12,Dot13,Dot14,Dot15,Dot16,Dot17,Dot18,Dot19,Dot20,Dot21,Dot22,Dot23,Dot24,Dot25,Dot26,Dot27,Dot28,Line1,Line2,Line3,Line4,Line5,Line6,Line7,Line8,Line9,Line10,Line11,Line12,Line13,Line14);
 		Scene scene = new Scene(pane,600,500);//create a scene
 		pane.setOnMouseClicked(e -> {
-			X = 275; Y = 50;
+			X = 275;
+			Y = 50;
 			Circle Ball = new Circle(X,Y,6,new Color(Math.random(),Math.random(), Math.random(), 0.8));
 			pane.getChildren().add(Ball);
-			
-			
+				Routine(Ball);
 		});
 		primaryStage.setTitle("BeanMachinePane");
 		primaryStage.setScene(scene);
@@ -87,8 +79,24 @@ public class BeanMachinePane  extends Application {
 		return (i * 25) + a;
 	}
 	public void Routine(Circle Ball){
-		Timeline Routinego = new Timeline(new KeyFrame(Duration.seconds(0.2),new KeyValue(Ball.centerXProperty(),randomX(Ball.getCenterX()))),new KeyFrame(Duration.seconds(0.2),new KeyValue(Ball.centerYProperty(),Ball.getCenterY())));
-			Routinego.play();
+		double[] d;
+		d = new double[8];
+		for(int i =0 ; i < d.length;i++){
+			d[i] = randomX(X);
+			X = randomX(X);
+			if(X == 450)
+				X = 400;
+		}
+		Timeline Routinego = new Timeline(
+			new KeyFrame(Duration.seconds(0.2),new KeyValue(Ball.centerXProperty(),d[0])),new KeyFrame(Duration.seconds(0.2),new KeyValue(Ball.centerYProperty(),85)),
+			new KeyFrame(Duration.seconds(0.3),new KeyValue(Ball.centerXProperty(),d[1])),new KeyFrame(Duration.seconds(0.3),new KeyValue(Ball.centerYProperty(),115)),
+			new KeyFrame(Duration.seconds(0.4),new KeyValue(Ball.centerXProperty(),d[2])),new KeyFrame(Duration.seconds(0.4),new KeyValue(Ball.centerYProperty(),145)),
+			new KeyFrame(Duration.seconds(0.5),new KeyValue(Ball.centerXProperty(),d[3])),new KeyFrame(Duration.seconds(0.5),new KeyValue(Ball.centerYProperty(),175)),
+			new KeyFrame(Duration.seconds(0.6),new KeyValue(Ball.centerXProperty(),d[4])),new KeyFrame(Duration.seconds(0.6),new KeyValue(Ball.centerYProperty(),205)),
+			new KeyFrame(Duration.seconds(0.7),new KeyValue(Ball.centerXProperty(),d[5])),new KeyFrame(Duration.seconds(0.7),new KeyValue(Ball.centerYProperty(),235)),
+			new KeyFrame(Duration.seconds(0.8),new KeyValue(Ball.centerXProperty(),d[6])),new KeyFrame(Duration.seconds(0.8),new KeyValue(Ball.centerYProperty(),265)),
+			new KeyFrame(Duration.seconds(0.9),new KeyValue(Ball.centerXProperty(),d[7]+25)),new KeyFrame(Duration.seconds(0.9),new KeyValue(Ball.centerYProperty(),345)));
+		Routinego.play();	
 	}
 	public static void main (String[] args) {
 	    Application.launch(args);  
